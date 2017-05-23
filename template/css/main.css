@@ -136,7 +136,7 @@ body {
   padding-top: 15px;
 }
 
-.stuff {
+.tekst {
   
   width: 100%;
   display: inline-flex;
@@ -147,11 +147,11 @@ body {
 }
 
 
-.stuff h2 {
+.tekst h2 {
   text-align: center;
 }
 
-.stuff p {
+.tekst p {
   padding-left: 15px;
 }
 .links {
@@ -412,7 +412,7 @@ input:focus, textarea:focus {
     height:85
     0%;
     width:100%;
-    position:absolute;
+    position:relative;
     
 }
 /* Team Member CSS 
