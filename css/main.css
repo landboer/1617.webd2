@@ -5,14 +5,24 @@
 
 
 
-
-
-
-
-body {
+* {
+  padding: 0;
   margin: 0;
-  padding: 0;;
+  box-sizing: border-box;
+  list-style-type: none;
+  font-family: "Open Sans", sans-serif;
 }
+
+body { 
+  background-color: gray;
+  height: 1000px;
+   margin: 0;
+  padding: 0;
+}
+
+
+
+
  
 .nav ul {
   list-style: none;
@@ -70,18 +80,7 @@ body {
   */
 }
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  list-style-type: none;
-  font-family: "Open Sans", sans-serif;
-}
 
-body { 
-  background-color: gray;
-  height: 1000px;
-}
   
 
   
@@ -162,6 +161,12 @@ body {
   padding-top: 30px;
   height: 320px;
   width: 400px;
+  
+}
+.middenportfolio {
+  padding-top: 30px;
+  height: 320px;
+  width: 350px;
   
 }
 
@@ -411,6 +416,10 @@ input:focus, textarea:focus {
     0%;
     width:100%;
     position:relative;
+
+
+
+    
     
 }
 /* Team Member CSS 
@@ -439,10 +448,7 @@ h1.team-h1 {
     clear: both;
 }
 
-/**
- * For IE 6/7 only
- * Include this rule to trigger hasLayout and contain floats.
- */
+
 .cf {
     *zoom: 1;
 }
@@ -559,17 +565,7 @@ h1.team-h1 {
  reset stuff so the demo looks good
 @import "compass"
 
-html , body
-  position: absolute
-  overflow: hidden
-  text-align: center
-  width: 100%
 
-html
-  height: 100%
-  
-body
-  @include translate( 0 , -50% )
-  top: 50%
+
 
   
