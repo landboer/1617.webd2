@@ -14,10 +14,8 @@
 }
 
 body { 
-  background-color: gray;
-  height: 1000px;
-   margin: 0;
-  padding: 0;
+  background-image: url("https://s-media-cache-ak0.pinimg.com/originals/71/9b/e8/719be89efa6a548253b4d3c7e9bfa6b1.jpg") ;
+background-size:cover;
 }
 
 
@@ -29,7 +27,8 @@ body {
   background-color: #444;
   text-align: center;
   padding: 20px;
-  margin: 0;
+  margin-bottom: 30px;
+
 }
 
  
@@ -139,32 +138,54 @@ body {
   flex-direction: row;
   flex-flow: wrap row;
   justify-content: space-around;
-  background-color: white;
+  
 }
 
 
 .tekst h2 {
+  color:white;
   text-align: center;
   padding-bottom: 10px;
 }
 
+
+
 .tekst p {
   padding-left: 15px;
+  color:white;
+
 }
+
 .links {
   padding-top: 30px;
-  height: 500px;
+  height: 400px;
   width: 400px;
+}
+.quote {
+  font-size: 50pt;
+   width: 100%;
+  display: inline-flex;
+  
+  flex-flow: wrap row;
+  justify-content: space-around;
+  margin-top: 100px;
+  height: 500px;
+  width: 600px;
+  margin-left: 40px;
+  color:white;
+
+  
 }
 
 .midden {
   padding-top: 30px;
-  height: 320px;
+  height: 300px;
   width: 400px;
   
 }
 .middenportfolio {
   padding-top: 30px;
+  padding-left: 10px;
   height: 320px;
   width: 350px;
   
@@ -183,15 +204,13 @@ body {
 }
 
 .plans {
-  height: 300px;
-  width: 100%;
-  
-  background-color: lightblue;
-  
-  color: black;
-  text-shadow: 1px 1px 1px white;
+  height: 250px;
+  width: 80%;
+  opacity: 0.50;
+  background-color: grey;
+  color: white;
   text-align: center;
-  
+
   padding: 10px;
 }
 
@@ -235,7 +254,7 @@ div#slider figure {
   left: 0;
   text-align: left;
   font-size: 0;
-  animation: 30s slidy infinite; 
+  animation: 5s slidy infinite; 
 }
 
 
@@ -404,16 +423,12 @@ input:focus, textarea:focus {
     margin:20px;
     margin-top:30px;
     overflow:hidden;
-    padding-bottom:40%;
+    border: 6pt solid dodgerblue;
     
    
     
 }
 .map-responsive iframe{
-    left:0;
-    top:0;
-    height:85
-    0%;
     width:100%;
     position:relative;
 
@@ -492,6 +507,7 @@ h1.team-h1 {
 
 .team-member span {
   display: block;
+  color: white;
  
 }
 .team-photo {
@@ -525,8 +541,6 @@ h1.team-h1 {
   
 }
 
-
-
 @media (max-width:650px){
   .team-member {
     float: none;
@@ -541,29 +555,91 @@ h1.team-h1 {
     margin: 15px auto;
   }
 }
-/* ENDS Team Member CSS 
-===========================*/
+/* ENDS Team Member CSS */
 
+/* BEGIN Form CSS */
 
+form { max-width:420px; margin:50px auto; }
 
-.responsive-video
+.feedback-input {
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid dodgerblue;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid dodgerblue; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:dodgerblue;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:dodgerblue; }
+/* END Formulier */
+
+/* BEGIN sociale media */
+.sharepost {
+  padding-top: 10px;
+  width: 35%;
+  margin-left: 35%;
+  margin-right: auto;
   
-  // video width and height in pixels
-  $width: 1000
-  $height: 562
-  
-  // swap these around and change the units to make it
-  // scale vertically
-  width: 100vw
-  height: #{($height/$width)*100}vw
+}
+.sharepost h2 {
+  font-family: sans-serif;
+  text-align: center;
+  color: #0e7aa7;
+}
+.sharepost li a {
+  float: left;
+  margin-right: 20px;
+  transition: opacity .3s ease-in-out;
+}
+.sharepost li a:hover {
+  opacity: .8;
+}
+.sharepost li a img {
+  width: 50px;
+}
+.sharepost li {
+  list-style: none;
+  background-color:white;
+}
 
-  // don't set these if you want your video to just fill
-  // all available space
-  max-width: #{$width}px
-  max-height: #{$height}px
+/* END sociale media */
 
- reset stuff so the demo looks good
-@import "compass"
+.responsive-video{
+margin-bottom:30px;
+border: 3pt solid dodgerblue;
+}
+
 
 
 

@@ -6,12 +6,6 @@
     padding: 0;
 }
 
-.grid__wrapper {
-    display: block;
-    margin: 0;
-    padding: 0;
-}
-
 .grid__container {
     display: block;
     width: 1140px;
@@ -38,6 +32,8 @@
     position: relative;
     float: left;
     padding: 0 12px;
+    margin-left: auto;
+  margin-right: auto;
 }
 
 .grid__column-12 { width: 100%; }
@@ -48,7 +44,9 @@
 .grid__column-7 {  width: 58.333333333333%; }
 .grid__column-6 {  width: 50%; }
 .grid__column-5 {  width: 41.666666666667%; }
-.grid__column-4 {  width: 33.333333333333%; }
+.grid__column-4 {  width: 33.333333333333%; 
+padding: 10px;}
+
 .grid__column-3 {  width: 25%; }
 .grid__column-2 {  width: 16.666666666667%; }
 .grid__column-1 {  width: 8.333333333333%; }
