@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
 * {
   box-sizing: border-box;
 }
@@ -18,13 +20,14 @@ body {
 
 
 .error {
-  font-size: 25pt;
-   width: 100%;
+  font-family: lato;
+  font-style:italic;
+  font-size: 20pt;
   display: inline-flex;
   flex-flow: wrap row;
   justify-content: space-around;
   margin-top: 20px;
-  height: 600px;
+  height: 500px;
   width: 600px;
   margin-left: 700px;
   color:white;
@@ -32,10 +35,9 @@ body {
 opacity: 0.6;
   padding:10px;
   border-radius: 20px ;
-  
 }
 
-@media screen and (max-width: 600px) {
-  .error {height: 600px;}
-  
+footer{
+font-size:11pt;
+  color:white;
 }
