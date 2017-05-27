@@ -154,14 +154,14 @@ background-size:cover;
   font-family: lato;
   font-style: italic;
   font-size: 50pt;
-   width: 100%;
+ 
   display: inline-flex;
   flex-flow: wrap row;
   justify-content: space-around;
   margin-top: 200px;
   margin-bottom:100px;
-  height: 500px;
-  width: 600px;
+  height: 700px;
+  width: 500px;
   margin-left: 40px;
   color:white;
 
@@ -172,8 +172,9 @@ background-size:cover;
   padding-top: 30px;
   height: 300px;
   width: 400px;
-  
+  color:white;
 }
+
 .middenportfolio a {
   padding-top: 30px;
   padding-left: 10px;
@@ -181,6 +182,19 @@ background-size:cover;
   width: 350px;
  
 }
+.contact {
+  padding: 30px;
+  margin-top:100px;
+  height: 200px;
+  width: 90%;
+  color:white;
+margin-left:5%;
+background-color:dodgerblue;
+opacity: 0.8;
+border-radius: 10em;
+text-align: center;
+}
+
 a{
   color:white;
 }
@@ -518,11 +532,10 @@ h1.team-h1 {
 .team-member h3 {
   color: #1CA3A3;
 }
-
-.email {
-  color: #EA2678;
-  
 }
+
+  
+
 
 .team-member span {
   display: block;
