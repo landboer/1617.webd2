@@ -1,0 +1,209 @@
+
+
+h1,
+h2,
+h3 {
+	font-family: lato;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+h4,
+h5,
+h6 {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+h1 {
+	font-size: 19px;
+}
+
+h2 {
+	font-size: 17px;
+}
+
+h3 {
+	font-size: 15px;
+}
+
+h4 {
+	font-size: 19px;
+}
+
+h5 {
+	font-size: 17px;
+}
+
+h6 {
+	font-size: 15px;
+}
+
+body {
+	font-size: 13px;
+	font-family: lato;
+	font-weight: 400;
+	line-height: 1.2;
+}
+
+a {
+	cursor: pointer;
+	color: #000;
+	
+	
+}
+
+.button {
+	text-transform: uppercase;
+	border: none;
+	background: #00b185;
+	color: #ffffff;
+	font-family: "Montserrat",Arial,Sans-Serif;
+	font-size: 15px;
+	text-decoration: none;
+	cursor: pointer;
+	display: inline-block;
+	outline: none;
+	padding: 10px;
+	position: relative;
+	
+
+}
+
+.button_block {
+	display: block;
+	width: 100%;
+}
+
+.button_large {
+	padding: 15px;
+	font-size: 17px;
+}
+
+.button-spinner {
+	background: rgba(#000, 0.4);
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+
+
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+.sg {
+	margin: 20px;
+	padding: 20px;
+	background: #eee;
+}
+
+.sg-hr {
+	margin: 20px 0;
+	border: 0;
+	border-top: 2px solid #ccc;
+}
+
+.sg-h1 {
+	font-size: 32px;
+	line-height: 1.4;
+	font-family: Arial, Sans-Serif;
+	margin: 0 0 20px;
+	background: none;
+	text-transform: initial;
+	font-weight: 700;
+}
+
+.sg-h2 {
+	font-size: 22px;
+	line-height: 1.4;
+	font-family: Arial, Sans-Serif;
+	margin: 20px 0 10px;
+	background: none;
+	text-transform: initial;
+	font-weight: 700;
+}
+
+.sg-p {
+	font-size: 14px;
+	line-height: 1.4;
+	font-family: Arial, Sans-Serif;
+	margin: 10px 0;
+	background: none;
+	text-transform: initial;
+}
+
+.sg-link {
+	color: #000;
+	
+
+}
+
+.sg-list {
+	font-size: 14px;
+	line-height: 1.4;
+	font-family: Arial, Sans-Serif;
+	margin: 0 0 20px;
+	padding: 0 20px;
+}
+
+.sg-example {
+	position: relative;
+}
+
+.sg-example__content {
+	background: #fff;
+	padding: 20px;	
+}
+
+.sg-example__code {
+
+	background: #000;
+	color: #fff;
+}
+	pre {
+		margin: 0;
+		padding: 20px;
+		overflow: auto;
+	}
+
+.sg-color-palette {
+	list-style: none;
+	overflow: hidden;
+	padding: 0;
+	margin: 0 -10px -20px;
+}
+
+.sg-color-palette__item {
+	width: 33.33333%;
+	float: left;
+	padding: 0 10px;
+	margin: 0 0 20px;
+}
+
+.sg-color-palette__bg {
+	background: #ccc;
+	height: 100px;
+}
+
+.sg-color-palette__text {
+	font-size: 14px;
+	line-height: 1.4;
+	font-family: Arial, Sans-Serif;
+	background: #fff;
+	padding: 20px;
+}
+
+.sg-explain {
+	font-size: 14px;
+	line-height: 1.4;
+	font-family: Arial, Sans-Serif;
+	color: #777;
+	margin: 10px 0;
+	
+	
+}
